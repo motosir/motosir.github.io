@@ -1,7 +1,7 @@
 #### Headless VM
 
 
-#### Adding a new Machine
+#### Setting up a new machine for ssh login
 1) Get mac addres of new VM
 
 ```bash
@@ -24,3 +24,31 @@ host ubuntu-ud1 {
 }
 ```
 
+3) add entry in /etc/hosts
+```shell
+sudo echo "172.16.76.21  ud1" >> /etc/hosts
+```
+
+4) copy public key to new vm
+```bash
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@host
+```
+or
+
+```bash
+HOST=ud1
+RUSER=user
+[PUBKEY](PUBKEY)=$(cat ~/.ssh/id_rsa.pub)
+ssh -t $RUSER@$HOST "[[ -d ~/.sshh ]] || { mkdir -p ~/.ssh; chmod 700 ~/.ssh; }; echo ${PUBKEY} >> ~/.ssh/authorized_keys; chmod 700 ~/.ssh/authorized_keys;"
+```
+
+5) add host entry to ssh config host
+```bash
+RUSER=user
+echo -e "\n\nHost ud*\n   User $RUSER\n   IdentityFile ~/.ssh/id_rsa" >>  ~/.ssh/config
+```
+
+you should now be able to run 
+```bash
+ssh ud1
+```
