@@ -13,7 +13,7 @@
 [Misc](Misc) - fixing keyboard layout
 
 #### Ubunutu
-setup ubuntu - quick setup guide
+[setup ubuntu](setup ubuntu) - quick setup guidex
 
 #### CentOS   
 setup centos - quick setup guide
