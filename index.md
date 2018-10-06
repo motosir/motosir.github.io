@@ -2,16 +2,17 @@
 
 #### MacBook
 [setup mac](setup mac) - guides for setting up new a macbook
-    * homebrew
-    * [install vim](vim)
+homebrew  - homebrew guides
+[install vim](vim) - install vim/macvim
 [vmware_fusion](vmware_fusion) - guides for vmware fusion
-    * fixing keyboard layout
-#### Ubunutu
-    * [setup](setup ubuntu)
-#### CentOS   
-    * [setup](setup centos)
+keyboard - fixing keyboard layout
 
-[testpage](testpage) - jkdsfjdlfjsd
+#### Ubunutu
+setup ubuntu - quick setup guide
+
+#### CentOS   
+setup centos - quick setup guide
+
 
 #### Shells
 ##### Bash
