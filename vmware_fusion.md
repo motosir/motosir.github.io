@@ -34,7 +34,7 @@ sudo /Applications/VMware\ Fusion.app/Contents/Library/services/services.sh --st
 sudo echo "172.16.76.21  ud1" >> /etc/hosts
 ```
 
-4) On the guest vm, restart vm  or 'sudo systemctl restart networking' to pick static IP form dhcp
+4) On the guest vm, restart vm  or 'sudo systemctl restart networking' to pick static IP from dhcp
 
 5) copy public key to new vm
 ```bash
