@@ -1,13 +1,42 @@
-#[Test](Test.md) - first test page 
+# Reference
 
-#[Bash](Bash.md) - some bash stuff
+#### MacBook
+    * [setup](setup mac)
+    * homebrew
+    * [install vim](vim)
+    * [vmware fusion](vmware fusion) 
+    * fixing keyboard layout
+    * 
+#### Ubunutu
+    * [setup](setup ubuntu)
+#### CentOS   
+    * [setup](setup centos)
 
-#### This is a sub heading
-    - this is a note
-    - this is another note
-    - wow
+
+#### Shells
+##### Bash
+    * bashrc -       
+    * Bash Scripting - various bash snippets
+#### ZSH
+#### awk
+#### sed
+
+#### VIM
+    * .vimrc
+    * wrting vim plugins
+    * vim scripting
+
+## Git
+#### Notes
+
+## Python
+[Test](Test.md) - first test page 
+
+## C++
+#### gtest
+
     
-    
+
 ```shell
     echo "Hello World"
     ls -lrt
