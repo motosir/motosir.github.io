@@ -1,11 +1,16 @@
 # Reference
 
 #### MacBook
+
 [setup mac](setup mac) - guides for setting up new a macbook
-homebrew  - homebrew guides
+  
+[homebrew](homebrew)  - homebrew guides
+
 [install vim](vim) - install vim/macvim
+
 [vmware_fusion](vmware_fusion) - guides for vmware fusion
-keyboard - fixing keyboard layout
+
+[Misc](Misc) - fixing keyboard layout
 
 #### Ubunutu
 setup ubuntu - quick setup guide
@@ -18,6 +23,7 @@ setup centos - quick setup guide
 ##### Bash
     * bashrc -       
     * Bash Scripting - various bash snippets
+
 #### ZSH
 #### awk
 #### sed
