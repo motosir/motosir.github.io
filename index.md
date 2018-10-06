@@ -1,10 +1,10 @@
 # Reference
 
 #### MacBook
-    * [setup](setup mac)
+    * [setup mac](setup mac)
     * homebrew
     * [install vim](vim)
-    * [vmware fusion](vmware fusion) 
+    * [vmware_fusion](vmware_fusion)
     * fixing keyboard layout
     * 
 #### Ubunutu
