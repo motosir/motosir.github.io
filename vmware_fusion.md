@@ -55,7 +55,7 @@ RUSER=user
 echo -e "\n\nHost ud*\n   User $RUSER\n   IdentityFile ~/.ssh/id_rsa" >>  ~/.ssh/config
 ```
 
-you should now be able to run 
+you should now be able ssh into vm by running
 ```bash
 ssh ud1
 ```
