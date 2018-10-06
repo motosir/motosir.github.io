@@ -8,7 +8,7 @@
     - wow
     
     
-    ```sh 
+    ```shell
     echo "Hello World"
     ```
     
