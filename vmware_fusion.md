@@ -38,7 +38,7 @@ or
 ```bash
 HOST=ud1
 RUSER=user
-[PUBKEY](PUBKEY)=$(cat ~/.ssh/id_rsa.pub)
+PUBKEY=$(cat ~/.ssh/id_rsa.pub)
 ssh -t $RUSER@$HOST "[[ -d ~/.sshh ]] || { mkdir -p ~/.ssh; chmod 700 ~/.ssh; }; echo ${PUBKEY} >> ~/.ssh/authorized_keys; chmod 700 ~/.ssh/authorized_keys;"
 ```
 
