@@ -1,10 +1,10 @@
 # Reference
 
 #### MacBook
-    * [setup mac](setup mac)
+    * [setup mac](setup mac) - guides for setting up new a macbook
     * homebrew
     * [install vim](vim)
-    * [vmware_fusion](vmware_fusion)
+    * [vmware_fusion](vmware_fusion) - guides for vmware fusion
     * fixing keyboard layout
     * 
 #### Ubunutu
@@ -12,6 +12,7 @@
 #### CentOS   
     * [setup](setup centos)
 
+    * testpage - jkdsfjdlfjsd
 
 #### Shells
 ##### Bash
