@@ -23,11 +23,18 @@ host ubuntu-ud1 {
     fixed-address 172.16.76.21;
 }
 ```
+and restart service
+```bash
+sudo /Applications/VMware\ Fusion.app/Contents/Library/services/services.sh --stop
+sudo /Applications/VMware\ Fusion.app/Contents/Library/services/services.sh --start
+```
 
 3) add entry in /etc/hosts
 ```shell
 sudo echo "172.16.76.21  ud1" >> /etc/hosts
 ```
+
+restart vm  or 'sudo systemctl restart networking' to pick static IP form dhcp
 
 4) copy public key to new vm
 ```bash
