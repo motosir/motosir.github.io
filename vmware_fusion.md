@@ -5,9 +5,9 @@
 1) Get mac addres of new VM
 
 ```bash
-VM="ubunut-ud1"
+VM="ubuntu-ud1"
 VMFILE="/Users/$USER/Documents/Virtual Machines.localized/${VM}.vmwarevm/${VM}.vmx"
-grep "ethernet0.generatedAddress"  $VMFILE
+grep "ethernet0.generatedAddress =" "$VMFILE"
 -
 ethernet0.generatedAddress = "00:0C:29:BA:FE:D1"
 ```
@@ -34,9 +34,9 @@ sudo /Applications/VMware\ Fusion.app/Contents/Library/services/services.sh --st
 sudo echo "172.16.76.21  ud1" >> /etc/hosts
 ```
 
-restart vm  or 'sudo systemctl restart networking' to pick static IP form dhcp
+4) On the guest vm, restart vm  or 'sudo systemctl restart networking' to pick static IP form dhcp
 
-4) copy public key to new vm
+5) copy public key to new vm
 ```bash
 ssh-copy-id -i ~/.ssh/id_rsa.pub user@host
 ```
@@ -49,7 +49,7 @@ PUBKEY=$(cat ~/.ssh/id_rsa.pub)
 ssh -t $RUSER@$HOST "[[ -d ~/.sshh ]] || { mkdir -p ~/.ssh; chmod 700 ~/.ssh; }; echo ${PUBKEY} >> ~/.ssh/authorized_keys; chmod 700 ~/.ssh/authorized_keys;"
 ```
 
-5) add host entry to ssh config host
+6) add host entry to ssh config host
 ```bash
 RUSER=user
 echo -e "\n\nHost ud*\n   User $RUSER\n   IdentityFile ~/.ssh/id_rsa" >>  ~/.ssh/config
